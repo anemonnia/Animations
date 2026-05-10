@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     public MovementState state;
 
-    public Animator animator;
+   
     public enum MovementState
     {
         walking,
@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
+       
 
     }
 
@@ -209,6 +209,3 @@ public class PlayerMovement : MonoBehaviour
         return Vector3.ProjectOnPlane(movementDirection, hitSlope.normal).normalized;
     }
 }
-//controller = GetComponent<CharacterController>();
-//    [Header("Animation")]
-//    public Animator animator;
