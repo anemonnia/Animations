@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3050545075100406487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8497993561190240216}
+  m_Layer: 0
+  m_Name: Hose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8497993561190240216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050545075100406487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6287128522121855390}
+  - {fileID: 1119849172823635480}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &576524106469970419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8497993561190240216}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.416
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.134
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9702933
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.24193154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 28.001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3388429944603865970, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c3530b9ebc8113b4c85599c20a259a23, type: 2}
+    - target: {fileID: 919132149155446097, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+      propertyPath: m_Name
+      value: HoseNozzle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+--- !u!4 &1119849172823635480 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2548cdc29ac4fd4481a31070294a0f0, type: 3}
+  m_PrefabInstance: {fileID: 576524106469970419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5821719910596847221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8497993561190240216}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: m_Name
+      value: HoseCoil
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730378180533966531, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1838ed14950144f4f8dccdb087be75c3, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+--- !u!4 &6287128522121855390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6f3899db730a9ce49b95abef3cb12f84, type: 3}
+  m_PrefabInstance: {fileID: 5821719910596847221}
+  m_PrefabAsset: {fileID: 0}

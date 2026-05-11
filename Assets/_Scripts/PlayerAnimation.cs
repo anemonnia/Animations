@@ -3,25 +3,33 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
 
-    public Animator animator;
+    public PlayerMovement player;
 
-    [ContextMenu("Trigger Axe Swing")]
-    public void TriggerAxeSwing()
+    public GameObject axe;
+
+    public Transform axeIdlePos;
+    public Transform axeAttackPos;
+
+    public void SpawnAxe()
     {
-        animator.SetTrigger("AxeSwing");
+        player.SpawnAxe();
     }
 
-    public void TriggerLift()
-    { 
-        animator.SetTrigger("")
+    public void SpawnHose()
+    {
+        player.SpawnHose();
     }
 
-    private void Update()
+    public void MoveAxe()
     {
-        if (Input.GetKeyDown(KeyCode.E)) 
-        {
-            TriggerAxeSwing();
-        }
+        axe.transform.position = axeAttackPos.position;
+        axe.transform.rotation = axeAttackPos.rotation;
+    }
+
+    public void ResetAxe()
+    {
+        axe.transform.position = axeIdlePos.position;
+        axe.transform.rotation = axeIdlePos.rotation;
     }
 
 }

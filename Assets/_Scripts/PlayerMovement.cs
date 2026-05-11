@@ -36,10 +36,29 @@ public class PlayerMovement : MonoBehaviour
     //The input values
     public InputActionReference moveAction;
     public InputActionReference runAction;
+    public InputActionReference swingAction;
+    public InputActionReference sprayAction;
 
     private Vector2 moveInput;
 
     public MovementState state;
+
+    public Animator animator;
+
+    public bool isPicking;
+
+    public bool hasAxe;
+    public bool hasHose;
+
+    public bool isSpraying;
+    public bool isClimbing;
+
+    public MeshRenderer equippedAxe;
+    public MeshRenderer equippedHose;
+    public MeshRenderer equippedNozzle;
+
+    private float aimX;
+    private float aimY;
 
    
     public enum MovementState
@@ -53,20 +72,30 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-       
-
     }
 
     private void OnEnable()
     {
         moveAction.action.Enable();
         runAction.action.Enable();
+        swingAction.action.Enable();
+        swingAction.action.performed += Swing;
+
+        sprayAction.action.Enable();
+        sprayAction.action.performed += StartSpray;
+        sprayAction.action.canceled += StopSpray;
     }
 
     private void OnDisable()
     {
         moveAction.action.Disable();
         runAction.action.Disable();
+        swingAction.action.performed -= Swing;
+        swingAction.action.Disable();
+
+        sprayAction.action.performed -= StartSpray;
+        sprayAction.action.canceled -= StopSpray;
+        sprayAction.action.Disable();
     }
 
     // Update is called once per frame
@@ -136,27 +165,92 @@ public class PlayerMovement : MonoBehaviour
     //Method that moves the player
     private void MovePlayer()
     {
-        //Calcualtes the movement direction based on the orientation and input
-        movementDirection = orientation.forward * moveInput.y + orientation.right * moveInput.x;
-
-        //If the player is on a slope
-        if (OnSlope() && !exitingSlope)
+        if(!isSpraying && !isClimbing)
         {
-            //Adds force in the slope direction
-            rb.AddForce(GetSlopeMoveDirection() * movementSpeed * 20f, ForceMode.Force);
+            animator.SetLayerWeight(3, 0);
 
-            //Adds force down to make sure player doesn't bump up and down while moving on slope
-            if (rb.linearVelocity.y > 0)
+            //Calcualtes the movement direction based on the orientation and input
+            movementDirection = orientation.forward * moveInput.y + orientation.right * moveInput.x;
+
+            //If the player is on a slope
+            if (OnSlope() && !exitingSlope)
             {
-                rb.AddForce(Vector3.down * 80f, ForceMode.Force);
+                //Adds force in the slope direction
+                rb.AddForce(GetSlopeMoveDirection() * movementSpeed * 20f, ForceMode.Force);
+
+                //Adds force down to make sure player doesn't bump up and down while moving on slope
+                if (rb.linearVelocity.y > 0)
+                {
+                    rb.AddForce(Vector3.down * 80f, ForceMode.Force);
+                }
+            }
+
+            //Adds a force in the direction the input is
+            rb.AddForce(movementDirection.normalized * movementSpeed * 10f, ForceMode.Force);
+
+            //Turn off the gravity while the player is on a slope, to prevent him from sliding down
+            rb.useGravity = !OnSlope();
+
+            if (movementDirection != Vector3.zero)
+            {
+
+                if (moveInput.y < 0)
+                {
+
+                    animator.SetFloat("Speed", -1);
+
+                }
+                else
+                {
+
+                    if (state == MovementState.running)
+                    {
+                        animator.SetFloat("Speed", 1);
+                    }
+                    else if (state == MovementState.walking)
+                    {
+                        animator.SetFloat("Speed", 0.5f);
+                    }
+
+                }
+            }
+
+            else
+            {
+
+                animator.SetFloat("Speed", 0);
+
             }
         }
 
-        //Adds a force in the direction the input is
-        rb.AddForce(movementDirection.normalized * movementSpeed * 10f, ForceMode.Force);
+        else if(isSpraying)
+        {
+            animator.SetLayerWeight(3, 1);
 
-        //Turn off the gravity while the player is on a slope, to prevent him from sliding down
-        rb.useGravity = !OnSlope();
+            aimX = Mathf.Lerp(aimX, moveInput.x, Time.deltaTime * 10f);
+            aimY = Mathf.Lerp(aimY, moveInput.y, Time.deltaTime * 10f);
+
+            animator.SetFloat("Horizontal", aimX);
+            animator.SetFloat("Vertical", aimY);
+        }
+
+        else if(isClimbing)
+        {
+            if(moveInput.y > 0)
+            {
+                animator.SetBool("IsStill", false);
+                transform.Translate(Vector3.up * Time.deltaTime, Space.World);
+            }
+            else if(moveInput.y < 0)
+            {
+                animator.SetBool("IsStill", false);
+                transform.Translate(-Vector3.up * Time.deltaTime, Space.World);
+            }
+            else if (moveInput.y == 0)
+            {
+                animator.SetBool("IsStill", true);
+            }
+        }
     }
 
     //A method that makes sure the player doesn't go too fast
@@ -207,5 +301,112 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 GetSlopeMoveDirection()
     {
         return Vector3.ProjectOnPlane(movementDirection, hitSlope.normal).normalized;
+    }
+
+    public void Swing(InputAction.CallbackContext context)
+    {
+        if(hasAxe)
+        {
+            animator.SetTrigger("AxeSwing");
+
+        }
+    }
+
+    public void PickUpAxe()
+    {
+        animator.SetLayerWeight(2, 0);
+        animator.SetLayerWeight(3, 0);
+        animator.SetTrigger("PickUpAxe");
+    }
+
+    public void PickUpHose()
+    {
+        animator.SetLayerWeight(1, 0);
+        animator.SetTrigger("PickUpHose");
+    }
+
+    public void SpawnAxe()
+    {
+        hasHose = false;
+        equippedHose.enabled = false;
+        equippedNozzle.enabled = false;
+        animator.SetLayerWeight(2, 0);
+        animator.SetLayerWeight(3, 0);
+
+        hasAxe = true;
+        equippedAxe.enabled = true;
+        isPicking = false;
+        animator.SetLayerWeight(1, 1);
+    }
+
+    public void SpawnHose()
+    {
+        hasAxe = false;
+        equippedAxe.enabled = false;
+        animator.SetLayerWeight(1, 0);
+
+        hasHose = true;
+        equippedHose.enabled = true;
+        equippedNozzle.enabled = true;
+        isPicking = false;
+        animator.SetLayerWeight(2, 1);
+    }
+
+    private void StartSpray(InputAction.CallbackContext context)
+    {
+        if(hasHose)
+        {
+            animator.SetBool("IsSpraying", true);
+            isSpraying = true;
+            equippedNozzle.enabled = true;
+        }
+    }
+
+    private void StopSpray(InputAction.CallbackContext context)
+    {
+        if (hasHose)
+        {
+            animator.SetBool("IsSpraying", false);
+            isSpraying = false;
+            equippedNozzle.enabled = false;
+        }
+    }
+
+    public void StartClimbing()
+    {
+        isClimbing = true;
+        animator.SetBool("IsClimbing", true);
+        rb.useGravity = false;
+        if(hasAxe)
+        {
+            equippedAxe.enabled = false;
+            animator.SetLayerWeight(1, 0f);
+        }
+        else if(hasHose)
+        {
+            equippedHose.enabled = false;
+            equippedNozzle.enabled = false;
+            animator.SetLayerWeight(2, 0f);
+            animator.SetLayerWeight(3, 0f);
+        }
+    }
+
+    public void StopClimbing()
+    {
+        isClimbing = false;
+        animator.SetBool("IsClimbing", false);
+        rb.useGravity = true;
+        if (hasAxe)
+        {
+            equippedAxe.enabled = true;
+            animator.SetLayerWeight(1, 1f);
+        }
+        else if (hasHose)
+        {
+            equippedHose.enabled = true;
+            equippedNozzle.enabled = true;
+            animator.SetLayerWeight(2, 1f);
+            animator.SetLayerWeight(3, 1f);
+        }
     }
 }

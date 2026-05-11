@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AxeMaks
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: FireKitten_Arm_L_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmControl_IK_L_Jnt1
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmControl_IK_L_Jnt1/FireKitten_ElbowControl_IK_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmControl_IK_L_Jnt1/FireKitten_ElbowControl_IK_L_Jnt/FireKitten_WristControl_IK_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_Arm_LowerResult_L_Roll_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_Hand_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Index_1Result_L_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Index_1Result_L_SDK/FireKitten_Index_1Result_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Mid_Result_L_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Mid_Result_L_SDK/FireKitten_Mid_1Result_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Pinky_Result_L_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_Pinky_Result_L_SDK/FireKitten_PinkyResult_L_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_ThumbResult_L_Base_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_L_Loc/FireKitten_ArmResult_L_Jnt/FireKitten_Arm_UpperResult_L_Roll_Jnt/FireKitten_ElbowResult_L_Jnt/FireKitten_WristResult_L_Jnt/FireKitten_PalmResult_L_Jnt/FireKitten_ThumbResult_L_Base_SDK/FireKitten_ThumbResult_L_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Arm_LowerResult_R_Roll_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_Hand_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_InedxResult_R_Base_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_InedxResult_R_Base_SDK/FireKitten_InedxResult_R_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_Mid_Result_R_Base_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_Mid_Result_R_Base_SDK/FireKitten_MidResult_R_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_Pinky_Result_R_Base_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_Pinky_Result_R_Base_SDK/FireKitten_PinkyResult_R_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_ThumbResult_R_Base_SDK
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Arm_Result_R_Jnt/FireKitten_Arm_UpperResult_R_Roll_Jnt/FireKitten_Elbow_Result_R_Jnt/FireKitten_Wrist_Result_L_Jnt/FireKitten_PalmResult_R_Jnt/FireKitten_ThumbResult_R_Base_SDK/FireKitten_ThumbResult_R_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_ArmControl_IK_R_Jnt1
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_ArmControl_IK_R_Jnt1/FireKitten_ElbowControl_IK_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_ArmControl_IK_R_Jnt1/FireKitten_ElbowControl_IK_R_Jnt/FireKitten_Wrist_Control_IK_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Shoulder_R_offset_Grp
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Shoulder_R_offset_Grp/FireKitten_Sholder_R_Gimbal_Fix_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Shoulder_R_offset_Grp/FireKitten_Sholder_R_Gimbal_Fix_Anim/FireKitten_Arm_FK_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Shoulder_R_offset_Grp/FireKitten_Sholder_R_Gimbal_Fix_Anim/FireKitten_Arm_FK_R_Anim/FireKitten_Elbow_FK_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Arm_R_Loc/FireKitten_Shoulder_R_offset_Grp/FireKitten_Sholder_R_Gimbal_Fix_Anim/FireKitten_Arm_FK_R_Anim/FireKitten_Elbow_FK_R_Anim/FireKitten_Wrist_FK_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Arms_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Eye_L_Back
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Eye_L_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Eye_R_Back
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Eye_R_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Fire_Coat_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_FireCoat_KittenRNfosterParent1
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_FireHelmet_Helmet_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Head_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Legs_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Lens_L_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Lens_R_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_LowerTeeth_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Pants_Tail
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Pants_Tail/FireKitten_Tail_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_Shorts_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Body_Mesh_Grp/FireKitten_UpperTeeth_Mesh
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP/FireKitten_Eyes_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP/FireKitten_Eyes_Anim/FireKitten_Eye_Target_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP/FireKitten_Eyes_Anim/FireKitten_Eye_Target_L_Anim/FireKitten_Pupli_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP/FireKitten_Eyes_Anim/FireKitten_Eye_Target_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Glasses_Space_GRP/FireKitten_Eyes_Anim/FireKitten_Eye_Target_R_Anim/FireKitten_Pupli_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden/FireKitten_Arm_L_Distance
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden/FireKitten_Arm_R_Distance
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden/FireKitten_Leg_L_Distance
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden/FireKitten_Leg_R_distanceDimension1
+    m_Weight: 0
+  - m_Path: FireKitten_Global_Grp/FireKitten_GlobalHidden/FireKitten_Neck_curve
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt/FireKitten_AnkleResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt/FireKitten_AnkleResult_L_Jnt/FireKitten_BallResult_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt/FireKitten_AnkleResult_L_Jnt/FireKitten_BallResult_L_Jnt/FireKitten_Big_Toe_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt/FireKitten_AnkleResult_L_Jnt/FireKitten_BallResult_L_Jnt/FireKitten_Mid_Toe_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_KneeResult_L_Jnt/FireKitten_HockResult_L_Jnt/FireKitten_AnkleResult_L_Jnt/FireKitten_BallResult_L_Jnt/FireKitten_Pinky_Toe_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_L_Jnt/FireKitten_Leg_L_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt/FireKitten_AnkleResult_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt/FireKitten_AnkleResult_R_Jnt/FireKitten_BallResult_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt/FireKitten_AnkleResult_R_Jnt/FireKitten_BallResult_R_Jnt/FireKitten_Big_Toe_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt/FireKitten_AnkleResult_R_Jnt/FireKitten_BallResult_R_Jnt/FireKitten_Mid_Toe_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_KneeResult_R_Jnt/FireKitten_HockResult_R_Jnt/FireKitten_AnkleResult_R_Jnt/FireKitten_BallResult_R_Jnt/FireKitten_Pinky_Toe_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Leg_Result_R_Jnt/FireKitten_Lege_R_Top_loc
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Tail_Base_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Tail_Base_Jnt/FireKitten_Tail_1_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Tail_Base_Jnt/FireKitten_Tail_1_Jnt/FireKitten_Tail_2_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Tail_Base_Jnt/FireKitten_Tail_1_Jnt/FireKitten_Tail_2_Jnt/FireKitten_Tail_3_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Hips_result_Jnt/FireKitten_Tail_Base_Jnt/FireKitten_Tail_1_Jnt/FireKitten_Tail_2_Jnt/FireKitten_Tail_3_Jnt/FireKitten_Tail_End_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Cog_V_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Cog_V_Anim/FireKitten_Cog_H_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Cog_V_Anim/FireKitten_Cog_H_Anim/FireKitten_Torso_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Cog_V_Anim/FireKitten_Cog_H_Anim/FireKitten_Torso_Anim/FireKitten_Hips_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim/FireKitten_Heel_L_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim/FireKitten_Heel_L_Reverse_Jnt/FireKitten_Toe_L_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim/FireKitten_Heel_L_Reverse_Jnt/FireKitten_Toe_L_Reverse_Jnt/FireKitten_Ball_L_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim/FireKitten_Heel_L_Reverse_Jnt/FireKitten_Toe_L_Reverse_Jnt/FireKitten_Ball_L_Reverse_Jnt/FireKitten_Ankle_L_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_L_Anim/FireKitten_Heel_L_Reverse_Jnt/FireKitten_Toe_L_Reverse_Jnt/FireKitten_Ball_L_Reverse_Jnt/FireKitten_Ankle_L_Reverse_Jnt/FireKitten_Ankle_L_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim/FireKitten_Heel_R_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim/FireKitten_Heel_R_Reverse_Jnt/FireKitten_Toe_R_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim/FireKitten_Heel_R_Reverse_Jnt/FireKitten_Toe_R_Reverse_Jnt/FireKitten_Ball_R_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim/FireKitten_Heel_R_Reverse_Jnt/FireKitten_Toe_R_Reverse_Jnt/FireKitten_Ball_R_Reverse_Jnt/FireKitten_Ankle_R_Reverse_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Foot_R_Anim/FireKitten_Heel_R_Reverse_Jnt/FireKitten_Toe_R_Reverse_Jnt/FireKitten_Ball_R_Reverse_Jnt/FireKitten_Ankle_R_Reverse_Jnt/FireKitten_Ankle_R_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Head_Grp
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Head_Grp/FireKitten_Neck_Top_cluster1Handle
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Lid_Low_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Lid_Low_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Lid_Up_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Head_Space_Grp/FireKitten_Head_Anim/FireKitten_Lid_Up_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_L_Anim/FireKitten_Wrist_IK_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_L_Anim/FireKitten_Wrist_IK_L_Jnt/FireKitten_IK_Wrist_loc
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_R_Anim/FireKitten_Wrist_Control_IK_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Master_Kitten/FireKitten_Wrist_Ik_R_Anim/FireKitten_Wrist_Control_IK_L_Anim/FireKitten_Wrist_IK_Loc
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt/FireKitten_Ball_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt/FireKitten_Ball_Skin_L_Jnt/FireKitten_Big_Toe_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt/FireKitten_Ball_Skin_L_Jnt/FireKitten_Mid_Toe_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt/FireKitten_Ball_Skin_L_Jnt/FireKitten_Mid_Toe_Skin_L_Jnt/FireKitten_Toe_Skin_L_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_L_Jnt/FireKitten_Knee_Skin_L_Jnt/FireKitten_Hock_Skin_L_Jnt/FireKitten_Ankle_Skin_L_Jnt/FireKitten_Ball_Skin_L_Jnt/FireKitten_Pinky_Toe_Skin_L_jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt/FireKitten_Ball_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt/FireKitten_Ball_Skin_R_Jnt/FireKitten_Big_Toe_Skin_R_jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt/FireKitten_Ball_Skin_R_Jnt/FireKitten_Mid_Toe_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt/FireKitten_Ball_Skin_R_Jnt/FireKitten_Pinky_Toe_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Leg_Skin_R_Jnt/FireKitten_Knee_Skin_R_Jnt/FireKitten_Hock_Skin_R_Jnt/FireKitten_Ankle_Skin_R_Jnt/FireKitten_Ball_Skin_R_Jnt/FireKitten_Toe_Skin_R_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt/FireKitten_PalmSkin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt/FireKitten_PalmSkin_L_Jnt/FireKitten_Index_1Skin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt/FireKitten_PalmSkin_L_Jnt/FireKitten_Mid_1Skin_L_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt/FireKitten_PalmSkin_L_Jnt/FireKitten_PinkySkin_L_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_L_2Skin_Jnt/FireKitten_Arm_2Skin_L_Jnt/FireKitten_Arm_UpperSkin_L_Roll_Jnt/FireKitten_ElbowSkin_L_Jnt/FireKitten_Arm_LowerSkin_L_Roll_Jnt/FireKitten_WristSkin_L_Jnt/FireKitten_PalmSkin_L_Jnt/FireKitten_ThumbSkin_L_Base_jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt/FireKitten_PalmSkin_R_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt/FireKitten_PalmSkin_R_Jnt/FireKitten_InedxSkin_R_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt/FireKitten_PalmSkin_R_Jnt/FireKitten_MidSkin_R_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt/FireKitten_PalmSkin_R_Jnt/FireKitten_PinkySkin_R_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Clavical_R_2Skin_Jnt/FireKitten_Arm_2Skin_R_Jnt/FireKitten_Arm_UpperSkin_R_Roll_Jnt/FireKitten_Elbow_2Skin_R_Jnt/FireKitten_Arm_LowerSkin_R_Roll_Jnt/FireKitten_Wrist_2Skin_R_Jnt/FireKitten_PalmSkin_R_Jnt/FireKitten_ThumbSkin_R_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Ear_2Skin_L_Base_Jnt1
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Ear_2Skin_R_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Eye_Target_L_Rotate_Jnt1
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Eye_Target_L_Rotate_Jnt1/FireKitten_Eye_Target_L_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Eye_Target_R_Rotate_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Eye_Target_R_Rotate_Jnt/FireKitten_Eye_Target_R_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Jaw_2Skin_Rotate_Jnt1
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Low_L_Rotate_Jnt1
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Low_L_Rotate_Jnt1/FireKitten_Lid_Low_2Skin_L_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Low_R_Rotate_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Low_R_Rotate_Jnt/FireKitten_Lid_Low_2Skin_R_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Up_L_Rotate_Jnt1
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Up_L_Rotate_Jnt1/FireKitten_Lid_Up_2Skin_L_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Up_R_Rotate_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Spine_2Skin_jnt2/FireKitten_Spine_2Skin_jnt3/FireKitten_Spine_2Skin_jnt4/FireKitten_Neck_Base_2Skin_jnt/FireKitten_Neck_2Skin_Mid_Jnt/FireKitten_Head_2Skin_Jnt/FireKitten_Lid_Up_R_Rotate_Jnt/FireKitten_Lid_Up_2Skin_R_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Tail_2Skin_Base_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Tail_2Skin_Base_Jnt/FireKitten_Tail_2Skin_1_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Tail_2Skin_Base_Jnt/FireKitten_Tail_2Skin_1_Jnt/FireKitten_Tail_2Skin_2_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Tail_2Skin_Base_Jnt/FireKitten_Tail_2Skin_1_Jnt/FireKitten_Tail_2Skin_2_Jnt/FireKitten_Tail_2Skin_3_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Root_Master/FireKitten_Hips_2Skin_Jnt/FireKitten_Tail_2Skin_Base_Jnt/FireKitten_Tail_2Skin_1_Jnt/FireKitten_Tail_2Skin_2_Jnt/FireKitten_Tail_2Skin_3_Jnt/FireKitten_Tail_2Skin_End_Jnt
+    m_Weight: 1
+  - m_Path: FireKitten_Spine_jnt1
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Clavical_L_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Clavical_R_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_group13
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_group13/FireKitten_Neck_Base_cluster1Handle
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Ear_L_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Ear_R_Base_Anim
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_L_Base_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_L_Base_Jnt/FireKitten_Eye_Target_L_Rotate_Control_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_L_Base_Jnt/FireKitten_Eye_Target_L_Rotate_Control_Jnt/FireKitten_Eye_Target_L_Control_End_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_L_Base_Jnt/FireKitten_Lid_Low_L_Rotate_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_L_Base_Jnt/FireKitten_Lid_Up_L_Rotate_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_R_Base_Jnt1
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_R_Base_Jnt1/FireKitten_Eye_Target_R_Rotate_Control_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_R_Base_Jnt1/FireKitten_Eye_Target_R_Rotate_Control_Jnt/FireKitten_Eye_Target_R_Contol_End_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_R_Base_Jnt1/FireKitten_Lid_Low_R_Rotate_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Eye_R_Base_Jnt1/FireKitten_Lid_Up_R_Rotate_Jnt
+    m_Weight: 0
+  - m_Path: FireKitten_Spine_jnt1/FireKitten_Spine_jnt2/FireKitten_Spine_jnt3/FireKitten_Spine_jnt4/FireKitten_Neck_Base_jnt/FireKitten_Neck_Mid_Jnt/FireKitten_Head_Jnt/FireKitten_Jaw_Rotate_Anim
+    m_Weight: 0
